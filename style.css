@@ -1,0 +1,82 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.diskBtnSpace {
+    text-align: center;
+    margin: auto;
+    background: lightblue;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index: -1;
+}
+
+.diskSpace {
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    border-radius: 100%
+}
+
+select {
+    font-family: 'Comfortaa', cursive;
+    margin: 10px;
+}
+
+#colorDiv {
+    text-align: center;
+}
+
+#modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: lightblue;
+}
+
+#colorDiv {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid green;;
+    border-radius: 8px;
+}
+
+#textSpace {
+    margin:10px; 
+}
+
+#enterBtn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#enterBtn:hover {
+    background: rgb(2, 170, 2);
+}
+
+#colorName {
+    text-align: center;
+}
+
+.blackBtnFill {
+    background: black;
+}
+
+.redBtnFill {
+    background: red;
+}   
